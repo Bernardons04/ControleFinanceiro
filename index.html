@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle Financeiro</title>
+
+    <link rel="stylesheet" href="Estilos/style.css">
+</head>
+<body onload="mostrarControle()">
+    <main>
+        <h1>Controle de despesas</h1>
+        <section>
+            <div class="divTop">
+                <div class="divSaldoAtual">
+                    <span>SALDO ATUAL</span>
+                    <h2 id="saldoAtual"></h2>
+                </div>
+                <div class="divTopSecond">
+                    <div class="divReceitas">
+                        <span>
+                            RECEITAS
+                        </span>
+                        <h3 id="receitas" class="rctDesp"></h3>
+                    </div>
+                    <div class="divDespesas">
+                        <span>
+                            DESPESAS
+                        </span>
+                        <h3 id="despesas" class="rctDesp"></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="divAddTransacao">
+                <h2 class="borderBottomText">Adicionar transação</h2>
+                <form class="form">
+                    <div class="inpuBox">
+                        <label for="idNome" class="labelAnimada">Nome</label>  
+                        <input name="nome" type="text" class="inputTransacao" id="idNome" placeholder="Nome da transação" required>
+                    </div>
+        
+                    <div class="inpuBox">
+                        <label for="idValor" class="labelAnimada">
+                            Valor <br>
+                            <small>
+                                (negativo - despesas, positivo - receitas)
+                            </small>
+                        </label>
+                        <input name="valor" type="number" class="inputTransacao" id="idValor" placeholder="Valor da transação" required>
+                    </div>
+                    <button class="btnAdd">Adicionar</button>
+                </form>
+            </div>
+            <div class="divTransacoes">
+                <h2 class="borderBottomText">Transações</h2>
+                <ul id="ul">
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="Javascript/script.js"></script>
+</html>
