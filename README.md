@@ -27,7 +27,7 @@
 
 ## <p align="center">📱Interface </p>
 <p align="center">
-<img src="imagens/interfaceControleFinanceiro.png" width="450px" align="center">
+<img src="imagens/interfaceControleFinanceiro.png" width="550px" align="center">
 </p>
 
 ## Interessado em testar o web app? Clique no link abaixo:
