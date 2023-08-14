@@ -19,6 +19,7 @@
 - `Funcionalidade 3`: Consultar o Saldo, Receitas e Despesas
 - `Funcionalidade 4`: Somar as Receitas e as Despesas
 - `Funcionalidade 5`: Receitas possuem a borda direita na cor verde e despesas na cor vermelha
+- `Funcionalidade 6`: Validação que impede o usuário de adicionar uma transação sem nome ou valor
 
 
 ## ✔️Tecnologias utilizadas
