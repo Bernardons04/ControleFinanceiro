@@ -17,7 +17,7 @@
 - `Funcionalidade 1`: Adicionar Transações
 - `Funcionalidade 2`: Remover Transações
 - `Funcionalidade 3`: Consultar o Saldo, Receitas e Despesas
-- `Funcionalidade 4`: somar as Receitas e as Despesas
+- `Funcionalidade 4`: Somar as Receitas e as Despesas
 
 
 ## ✔️Tecnologias utilizadas
